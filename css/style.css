@@ -44,3 +44,9 @@ footer {
   right: 1rem;
   z-index: 1000;
 }
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
