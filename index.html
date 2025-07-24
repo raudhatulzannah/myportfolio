@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raudhatul Zannah - Web Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="theme-toggle">
+  <button class="btn btn-outline-dark" id="darkToggle"><i class="fa-solid fa-moon"></i></button>
+</div>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="#">RZ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Proyek</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="section bg-primary-custom text-center text-white">
+  <div class="container" data-aos="fade-up">
+    <img src="img/profile.jpg" class="rounded-circle border border-white shadow mb-4" alt="Foto Profil">
+    <h1 class="display-4 fw-bold">Raudhatul Zannah</h1>
+    <p class="lead">Frontend Developer • UI/UX Enthusiast • Network Certified</p>
+    <div class="mt-4">
+      <a href="mailto:raudhatulzh@gmail.com" class="btn btn-light me-2">Hubungi Saya</a>
+      <a href="https://linkedin.com/in/raudhatulzannah" target="_blank" class="btn btn-outline-light">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section class="section text-center" id="about">
+  <div class="container" data-aos="fade-up">
+    <h2 class="primary-color mb-4">Tentang Saya</h2>
+    <p class="lead mx-auto" style="max-width: 800px;">
+      Lulusan S1 Teknik Informatika dari Universitas Pamulang. Saya memiliki passion dalam menciptakan pengalaman digital yang menyenangkan dan efisien.
+    </p>
+  </div>
+</section>
+
+<section class="section bg-light" id="skills">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center primary-color mb-5">Keahlian</h2>
+    <div class="row text-center">
+      <div class="col-md-3 mb-4"><i class="fas fa-code fa-2x mb-2"></i><h6>HTML, CSS, JS</h6></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-database fa-2x mb-2"></i><h6>PHP, MySQL, Laravel</h6></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-paint-brush fa-2x mb-2"></i><h6>UI/UX Design (Figma)</h6></div>
+      <div class="col-md-3 mb-4"><i class="fas fa-network-wired fa-2x mb-2"></i><h6>Networking & Git</h6></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="experience">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-5 primary-color">Pengalaman & Pendidikan</h2>
+    <div class="row g-4">
+      <div class="col-md-6"><div class="card card-hover p-4">
+        <h5 class="fw-bold">Web Developer Intern</h5>
+        <p class="text-muted">Sodaqo Mart (2022)</p>
+        <p>Meningkatkan performa sistem belanja online dengan fitur katalog dan checkout.</p>
+      </div></div>
+      <div class="col-md-6"><div class="card card-hover p-4">
+        <h5 class="fw-bold">S1 Teknik Informatika</h5>
+        <p class="text-muted">Universitas Pamulang • IPK 3.65</p>
+        <p>Fokus: Web Dev, UI/UX, Database, Jaringan</p>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-light" id="projects">
+  <div class="container" data-aos="fade-up">
+    <h2 class="text-center mb-5 primary-color">Proyek Unggulan</h2>
+    <div class="card card-hover p-4">
+      <h5 class="fw-bold">E-Voting OSIS</h5>
+      <p>Sistem voting sekolah berbasis web (Laravel, PHP, MySQL, Bootstrap).</p>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-primary-custom text-white text-center" id="contact">
+  <div class="container" data-aos="fade-up">
+    <h2 class="mb-3">Hubungi Saya</h2>
+    <form action="https://formsubmit.co/raudhatulzh@gmail.com" method="POST" class="mx-auto" style="max-width:600px">
+      <input type="hidden" name="_captcha" value="false">
+      <div class="mb-3"><input type="text" name="name" class="form-control" placeholder="Nama Anda" required></div>
+      <div class="mb-3"><input type="email" name="email" class="form-control" placeholder="Email Anda" required></div>
+      <div class="mb-3"><textarea name="message" class="form-control" rows="5" placeholder="Pesan Anda" required></textarea></div>
+      <button type="submit" class="btn btn-light">Kirim Pesan</button>
+    </form>
+    <div class="mt-4">
+      <a class="icon-link" href="https://github.com/raudhatulzannah" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+      <a class="icon-link" href="https://linkedin.com/in/raudhatulzannah" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+    </div>
+    <a href="CV-RAUDHATUL-ZANNAH.pdf" download class="btn btn-outline-light mt-3">Download CV</a>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <p class="mb-0">&copy; 2025 Raudhatul Zannah • All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
